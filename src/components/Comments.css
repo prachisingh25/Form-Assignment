@@ -1,0 +1,41 @@
+.container {
+  /* width: 100%; */
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.label {
+  font-size: 14px;
+  color: lightgray;
+  font-weight: bold;
+}
+
+.field-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.textarea {
+  /* width: 100%; */
+  font-size: 14px;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  color: gray;
+  resize: vertical;
+}
+
+.textarea::placeholder {
+  color: lightgray;
+}
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
